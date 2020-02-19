@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.body-cont {
+  display: flex;
+  justify-content: flex-start;
+}
+aside {
+  background: #1f2018 url(/images/restaruant_bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  width: 420px;
+  height: 100vh;
+  overflow: hidden;
+}
+main{
+  flex: 1;
+  margin:16px;
+}
+form input[type=text]{
+  outline: none;
+  font-size: 18px;
+  padding: 16px;
+  margin-right:8px;
+}
+button{
+  padding: 16px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.searchForm{
+  height: 70px;
+  overflow: hidden;
+}
+.results{
+  height: calc(100vh - 100px);
+  overflow: auto;
+  min-width: 500px;
+}
+.resultHeader,.resultElement{
+  display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    overflow: hidden;
+    grid-gap: 16px;
+    padding: 5px;
+}
+.resultHeader h2{
+  font-size: 16px;
+  font-weight: 400;
+}
+.resultElement{
+  border-bottom: 1px solid #CACACA;
+}
+.resultElement h3{
+  font-size: 14px;
+  font-weight: 400;
+}
