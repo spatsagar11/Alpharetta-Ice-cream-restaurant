@@ -7,7 +7,7 @@
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.10.0",
     "enzyme-to-json": "^3.3.5",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "http-proxy-middleware": "^0.21.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
